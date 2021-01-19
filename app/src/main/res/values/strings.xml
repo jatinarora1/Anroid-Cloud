@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">A+C</string>
+    <string name="android_cloud">Android + Cloud</string>
+    <string name="click_here1">Click Here</string>
+    <string name="click_here2">Click Here</string>
+    <string name="update">Update</string>
+    <string name="upload">Upload</string>
+    <string name="number">Number</string>
+    <string name="string">String</string>
+    <string name="retrieve">Retrieve</string>
+    <string name="retrive">Retrive</string>
+    <string name="retrieve_number">Number</string>
+    <string name="retrieve_string">String</string>
+    <string name="todo">TODO</string>
+    <string name="home">Home</string>
+    <string name="_0_10000000">0-10000000</string>
+    <string name="submit">Submit</string>
+    <string name="upload_number">Upload Number</string>
+    <string name="hello_world">Hello World!!</string>
+    <string name="upload_string">Upload String</string>
+</resources>
