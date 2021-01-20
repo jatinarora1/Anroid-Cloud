@@ -26,4 +26,9 @@ class MainActivity2 : AppCompatActivity() {
             startActivity(i)
         }
     }
+
+    override fun onBackPressed() {
+        val i = Intent(this, MainActivity::class.java)
+        startActivity(i)
+    }
 }

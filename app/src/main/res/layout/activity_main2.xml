@@ -1,50 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/ic_launcher_foreground"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
-    <Button
-        android:id="@+id/home"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/home"
-        android:backgroundTint="@color/cardview_shadow_start_color"
-        />
-    <TextView
-        android:id="@+id/textView"
+    android:layout_height="match_parent">
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/upload"
-        android:gravity="center_horizontal"
-        android:textSize="36sp"
-        style="@style/MaterialAlertDialog.MaterialComponents.Title.Panel.CenterStacked"
-        android:fontFamily="monospace"
-        android:layout_marginTop="30dp"
-        android:layout_marginBottom="100dp"
-        />
-    <Button
-        android:id="@+id/uploadNumber"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/number"
-        android:layout_marginBottom="200dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginEnd="100dp"
-        android:backgroundTint="@color/cardview_shadow_start_color"
-        />
-    <Button
-        android:id="@+id/uploadString"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/string"
-        android:layout_marginBottom="50dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginEnd="100dp"
-        android:backgroundTint="@color/cardview_shadow_start_color"
-        />
+        android:background="@drawable/ic_launcher_foreground"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+        <Button
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/upload"
+            android:gravity="center_horizontal"
+            android:textSize="36sp"
+            style="@style/MaterialAlertDialog.MaterialComponents.Title.Panel.CenterStacked"
+            android:fontFamily="monospace"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="100dp"
+            />
+        <Button
+            android:id="@+id/uploadNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/number"
+            android:layout_marginBottom="200dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            />
+        <Button
+            android:id="@+id/uploadString"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/string"
+            android:layout_marginBottom="50dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            />
 
-</LinearLayout>
+    </LinearLayout>
+</ScrollView>

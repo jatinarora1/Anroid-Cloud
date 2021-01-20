@@ -14,5 +14,20 @@ class Retrieve : AppCompatActivity() {
             val i = Intent(this, MainActivity::class.java)
             startActivity(i)
         }
+        val numBtn: Button = findViewById(R.id.Number)
+        numBtn.setOnClickListener {
+            val i = Intent(this, Numbers::class.java)
+            startActivity(i)
+        }
+        val numBtn1: Button = findViewById(R.id.strings)
+        numBtn1.setOnClickListener {
+            val i = Intent(this, InputString::class.java)
+            startActivity(i)
+        }
+    }
+    override fun onBackPressed() {
+        val i = Intent(this, MainActivity::class.java)
+
+        startActivity(i)
     }
 }
