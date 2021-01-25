@@ -18,4 +18,10 @@
     <string name="upload_number">Upload Number</string>
     <string name="hello_world">Hello World!!</string>
     <string name="upload_string">Upload String</string>
+    <string name="notification_title">New data enetered</string>
+    <string name="egg_notification_channel_id">Number</string>
+    <string name="default_notification_channel_id">Channel_1</string>
+    <string name="default_notification_channel_name">Channel</string>
+    <string name="msg_subscribed">New Update</string>
+    <string name="msg_subscribe_failed">Failure</string>
 </resources>

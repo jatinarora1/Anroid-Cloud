@@ -5,7 +5,6 @@ import android.widget.ArrayAdapter
 import android.widget.ListView
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.database.*
-
 var numbers = ArrayList<String>()
 
 private lateinit var database: DatabaseReference
